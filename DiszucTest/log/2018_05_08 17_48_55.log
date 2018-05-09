@@ -1,0 +1,6 @@
+property：webdriver.chrome.driver
+驱动地址为：./chromedriver.exe
+浏览器为：chrome
+启动chromedriver
+打开网址:http://127.0.0.1/Discuz/forum.php
+返回一组元素

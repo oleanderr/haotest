@@ -1,0 +1,11 @@
+property：webdriver.chrome.driver
+驱动地址为：./chromedriver.exe
+浏览器为：chrome
+启动chromedriver
+打开网址:http://127.0.0.1/Discuz/forum.php
+找到元素: xpath: //*[@id="category_1"]/table/tbody/tr[1]/td[2]/h2/a
+对元素： xpath: //*[@id="category_1"]/table/tbody/tr[1]/td[2]/h2/a:做点击操作
+找到元素: xpath: //*[@id="newspecial"]/img
+对元素： xpath: //*[@id="newspecial"]/img:做点击操作
+元素未找到
+元素未找到

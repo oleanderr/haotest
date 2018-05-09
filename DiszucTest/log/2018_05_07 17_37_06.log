@@ -1,0 +1,11 @@
+启动chromedriver
+打开网址:http://127.0.0.1/Discuz/forum.php
+找到元素: id: ls_username
+找到元素: id: ls_username
+清空元素： id: ls_username
+在元素 id: ls_username上输入内容：admin
+找到元素: id: ls_password
+找到元素: id: ls_password
+清空元素： id: ls_password
+在元素 id: ls_password上输入内容：admin
+元素未找到

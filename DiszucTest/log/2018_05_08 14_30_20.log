@@ -1,0 +1,31 @@
+property：webdriver.chrome.driver
+驱动地址为：./chromedriver.exe
+浏览器为：chrome
+启动chromedriver
+打开网址:http://127.0.0.1/Discuz/forum.php
+找到元素: id: ls_username
+找到元素: id: ls_username
+清空元素： id: ls_username
+在元素 id: ls_username上输入内容：admin
+找到元素: id: ls_password
+找到元素: id: ls_password
+清空元素： id: ls_password
+在元素 id: ls_password上输入内容：admin
+找到元素: xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+对元素： xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button:做点击操作
+找到元素: xpath: //*[@id="category_1"]/table/tbody/tr[1]/td[2]/h2/a
+对元素： xpath: //*[@id="category_1"]/table/tbody/tr[1]/td[2]/h2/a:做点击操作
+找到元素: xpath: //th/a[@class="s xst"]
+对元素： xpath: //th/a[@class="s xst"]:做点击操作
+找到元素: xpath: //*[@id="modmenu"]/a[1]
+对元素： xpath: //*[@id="modmenu"]/a[1]:做点击操作
+找到元素: xpath: //*[@id="modsubmit"]
+对元素： xpath: //*[@id="modsubmit"]:做点击操作
+找到元素: link text: 管理中心
+对元素： link text: 管理中心:做点击操作
+找到元素: xpath: //*[@id="loginform"]/p[4]/input
+找到元素: xpath: //*[@id="loginform"]/p[4]/input
+清空元素： xpath: //*[@id="loginform"]/p[4]/input
+在元素 xpath: //*[@id="loginform"]/p[4]/input上输入内容：admin
+找到元素: xpath: //*[@id="loginform"]/p[9]/input
+对元素： xpath: //*[@id="loginform"]/p[9]/input:做点击操作

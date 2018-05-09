@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="Whilt">
+    <parameter name="Browser" value="chrome" />
+    <test name="test">
+        <classes>
+            <class name=" " />
+        </classes>
+    </test>
+</suite>

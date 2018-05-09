@@ -1,0 +1,3 @@
+property：webdriver.gecko.driver
+驱动地址为：./geckodriver.exe
+浏览器为：firefox

@@ -1,0 +1,37 @@
+property：webdriver.chrome.driver
+驱动地址为：./chromedriver.exe
+浏览器为：chrome
+启动chromedriver
+打开网址:http://127.0.0.1/Discuz/forum.php
+找到元素: id: ls_username
+找到元素: id: ls_username
+清空元素： id: ls_username
+在元素 id: ls_username上输入内容：admin
+找到元素: id: ls_password
+找到元素: id: ls_password
+清空元素： id: ls_password
+在元素 id: ls_password上输入内容：admin
+找到元素: xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+对元素： xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button:做点击操作
+找到元素: xpath: //*[@id="category_1"]/table/tbody/tr[1]/td[2]/h2/a
+对元素： xpath: //*[@id="category_1"]/table/tbody/tr[1]/td[2]/h2/a:做点击操作
+找到元素: xpath: //*[@id="newspecial"]/img
+对元素： xpath: //*[@id="newspecial"]/img:做点击操作
+找到元素: xpath: //*[@id="subject"]
+找到元素: xpath: //*[@id="subject"]
+清空元素： xpath: //*[@id="subject"]
+在元素 xpath: //*[@id="subject"]上输入内容：haotest
+找到元素: xpath: /html/body
+找到元素: xpath: /html/body
+清空元素： xpath: /html/body
+在元素 xpath: /html/body上输入内容：haotest
+找到元素: xpath: //*[@id="postsubmit"]
+对元素： xpath: //*[@id="postsubmit"]:做点击操作
+找到元素: xpath: //*[@id="fastpostmessage"]
+找到元素: xpath: //*[@id="fastpostmessage"]
+清空元素： xpath: //*[@id="fastpostmessage"]
+在元素 xpath: //*[@id="fastpostmessage"]上输入内容：test
+找到元素: xpath: //*[@id="fastpostsubmit"]
+对元素： xpath: //*[@id="fastpostsubmit"]:做点击操作
+找到元素: link text: 退出
+对元素： link text: 退出:做点击操作
