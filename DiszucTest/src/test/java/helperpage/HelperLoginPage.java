@@ -11,7 +11,7 @@ import util.SeleniumUtil;
  * Created by 35870 on 2018/5/7.
  */
 public class HelperLoginPage {
-    public static Logger logger=Logger.getLogger(HelperLoginPage.class);
+   // public static Logger logger=Logger.getLogger(HelperLoginPage.class);
     //用户名输入
     public static void inputusername(SeleniumUtil seleniumUtil,String username){
         seleniumUtil.sendKeys(PageLogin.LOGIN_INPUT_USERNAME,username);

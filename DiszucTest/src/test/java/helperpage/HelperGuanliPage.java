@@ -8,7 +8,7 @@ import util.SeleniumUtil;
  * Created by 35870 on 2018/5/8.
  */
 public class HelperGuanliPage {
-    private static Logger logger=Logger.getLogger(HelperGuanliPage.class);
+    //private static Logger logger=Logger.getLogger(HelperGuanliPage.class);
     //点击论坛
     public static void clicklutan(SeleniumUtil seleniumUtil){
         seleniumUtil.click(PageGuanli.GUANLI_LINK_LUNTAN);

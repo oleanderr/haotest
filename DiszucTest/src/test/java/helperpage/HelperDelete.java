@@ -8,7 +8,7 @@ import util.SeleniumUtil;
  * Created by 35870 on 2018/5/8.
  */
 public class HelperDelete {
-    public static Logger logger=Logger.getLogger(HelperLoginPage.class);
+    //public static Logger logger=Logger.getLogger(HelperLoginPage.class);
 
     //随意点击一个链接
     public static void clicka(SeleniumUtil seleniumUtil){

@@ -10,4 +10,6 @@ public class PageSearch {
     public static final By SEARCH_INPUT_SEARCH=By.id("scbar_txt");
     //搜索按钮
     public static final By SEARCH_BUTTON_SEC=By.id("scbar_btn");
+    //搜索结果
+    public static final By SEARCH_LINK_TITLE=By.xpath("//li/h3/a");
 }

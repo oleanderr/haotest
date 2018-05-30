@@ -183,28 +183,32 @@ public class SeleniumUtil {
         logger.info("找到了元素："+by);
 
     }
-    //切换浏览器
+    //切换浏览器通过ifream id
     public void qiehuanifream(String freamId){
 
         driver.switchTo().frame(freamId);
     }
+    //切换回原来浏览器
     public void qiehuanifream(){
 
         driver.switchTo().defaultContent();
     }
 
-    public void alert(){
-        driver.switchTo().alert().accept();
-
-    }
-
+//    public void alert(){
+//        driver.switchTo().alert().accept();
+//
+//    }
+    //切换到新窗口
     public void newwindows(){
         Set<String> windows =driver.getWindowHandles();
         for(String handle:windows){
             driver.switchTo().window(handle);
         }
 
+
     }
+
+
 
 
 
