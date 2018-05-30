@@ -1,25 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Whilt" duration-ms="50012" started-at="2018-05-30T11:28:29Z" finished-at="2018-05-30T11:29:19Z">
+  <suite name="Whilt" duration-ms="160843" started-at="2018-05-30T11:43:14Z" finished-at="2018-05-30T11:45:55Z">
     <groups>
     </groups>
-    <test name="test" duration-ms="50012" started-at="2018-05-30T11:28:29Z" finished-at="2018-05-30T11:29:19Z">
+    <test name="test" duration-ms="160843" started-at="2018-05-30T11:43:14Z" finished-at="2018-05-30T11:45:55Z">
       <class name="testcase.LoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testcase.LoginTest@1d251891]" name="setup" is-config="true" duration-ms="22455" started-at="2018-05-30T19:28:29Z" finished-at="2018-05-30T19:28:52Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcase.LoginTest@58ceff1]" name="setup" is-config="true" duration-ms="15832" started-at="2018-05-30T19:43:14Z" finished-at="2018-05-30T19:43:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login()[pri:0, instance:testcase.LoginTest@1d251891]" name="login" duration-ms="27038" started-at="2018-05-30T19:28:52Z" finished-at="2018-05-30T19:29:19Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:testcase.LoginTest@58ceff1]" name="login" duration-ms="28917" started-at="2018-05-30T19:43:30Z" finished-at="2018-05-30T19:43:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:testcase.LoginTest@1d251891]" name="teardown" is-config="true" duration-ms="0" started-at="2018-05-30T19:29:19Z" finished-at="2018-05-30T19:29:19Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcase.LoginTest@58ceff1]" name="teardown" is-config="true" duration-ms="3851" started-at="2018-05-30T19:44:00Z" finished-at="2018-05-30T19:44:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testcase.LoginTest -->
+      <class name="testcase.AdminTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcase.AdminTest@49e4cb85]" name="setup" is-config="true" duration-ms="9678" started-at="2018-05-30T19:44:30Z" finished-at="2018-05-30T19:44:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="delete()[pri:0, instance:testcase.AdminTest@49e4cb85]" name="delete" duration-ms="73987" started-at="2018-05-30T19:44:39Z" finished-at="2018-05-30T19:45:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcase.AdminTest@49e4cb85]" name="teardown" is-config="true" duration-ms="1918" started-at="2018-05-30T19:45:53Z" finished-at="2018-05-30T19:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcase.AdminTest -->
+      <class name="testcase.SearchTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcase.SearchTest@7c30a502]" name="setup" is-config="true" duration-ms="10711" started-at="2018-05-30T19:44:03Z" finished-at="2018-05-30T19:44:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="search()[pri:0, instance:testcase.SearchTest@7c30a502]" name="search" duration-ms="14028" started-at="2018-05-30T19:44:14Z" finished-at="2018-05-30T19:44:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcase.SearchTest@7c30a502]" name="teardown" is-config="true" duration-ms="1547" started-at="2018-05-30T19:44:28Z" finished-at="2018-05-30T19:44:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcase.SearchTest -->
     </test> <!-- test -->
   </suite> <!-- Whilt -->
 </testng-results>

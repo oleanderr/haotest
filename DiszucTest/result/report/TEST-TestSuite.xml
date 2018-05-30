@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="TestSuite" time="52.088" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="TestSuite" time="161.544" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
@@ -20,7 +20,7 @@
     <property name="basedir" value="F:\lianxi\DiszucTest"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="surefire.real.class.path" value="C:\Users\35870\AppData\Local\Temp\surefirebooter3207574067382914125.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\35870\AppData\Local\Temp\surefirebooter2410159735103263910.jar"/>
     <property name="java.io.tmpdir" value="C:\Users\35870\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
@@ -28,6 +28,7 @@
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
     <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="jnidispatch.path" value="C:\Users\35870\AppData\Local\Temp\jna-48734063\jna8769950032739079710.dll"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files (x86)\HP\NV\lib\shunra\vcat;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\HP\LoadRunner\strawberry-perl\perl\bin;C:\Program Files (x86)\HP\NV\lib\thirdparty\safenet\LDK\7.0;C:\Program Files (x86)\HP\NV\lib\shunra\snv;F:\maven-3.0.5\bin;D:\study\linuxandzidonghua\ruanjian\Git\cmd;C:\Program Files\nodejs\;C:\adt-bundle-windows\sdk\tools;C:\adt-bundle-windows\sdk\platform-tools;C:\Users\35870\AppData\Local\Programs\Python\Python36;C:\Users\35870\AppData\Local\Programs\Python\Python36\Scripts;C:\Users\35870\AppData\Local\Microsoft\WindowsApps;C:\Users\35870\AppData\Local\Programs\Fiddler;C:\Users\35870\AppData\Local\GitHubDesktop\bin;C:\Users\35870\AppData\Roaming\npm;F:\Microsoft VS Code\bin;;."/>
     <property name="surefire.test.class.path" value="F:\lianxi\DiszucTest\target\test-classes;F:\lianxi\DiszucTest\target\classes;F:\selinum\userlib\org\seleniumhq\selenium\selenium-java\2.48.2\selenium-java-2.48.2.jar;F:\selinum\userlib\org\seleniumhq\selenium\selenium-chrome-driver\2.48.2\selenium-chrome-driver-2.48.2.jar;F:\selinum\userlib\org\seleniumhq\selenium\selenium-remote-driver\2.48.2\selenium-remote-driver-2.48.2.jar;F:\selinum\userlib\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;F:\selinum\userlib\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar;F:\selinum\userlib\org\seleniumhq\selenium\selenium-api\2.48.2\selenium-api-2.48.2.jar;F:\selinum\userlib\com\google\guava\guava\18.0\guava-18.0.jar;F:\selinum\userlib\org\seleniumhq\selenium\selenium-edge-driver\2.48.2\selenium-edge-driver-2.48.2.jar;F:\selinum\userlib\commons-io\commons-io\2.4\commons-io-2.4.jar;F:\selinum\userlib\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;F:\selinum\userlib\org\seleniumhq\selenium\selenium-htmlunit-driver\2.48.2\selenium-htmlunit-driver-2.48.2.jar;F:\selinum\userlib\net\sourceforge\htmlunit\htmlunit\2.18\htmlunit-2.18.jar;F:\selinum\userlib\xalan\xalan\2.7.2\xalan-2.7.2.jar;F:\selinum\userlib\xalan\serializer\2.7.2\serializer-2.7.2.jar;F:\selinum\userlib\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;F:\selinum\userlib\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;F:\selinum\userlib\org\apache\httpcomponents\httpmime\4.5\httpmime-4.5.jar;F:\selinum\userlib\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;F:\selinum\userlib\net\sourceforge\htmlunit\htmlunit-core-js\2.17\htmlunit-core-js-2.17.jar;F:\selinum\userlib\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;F:\selinum\userlib\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;F:\selinum\userlib\net\sourceforge\nekohtml\nekohtml\1.9.22\nekohtml-1.9.22.jar;F:\selinum\userlib\net\sourceforge\cssparser\cssparser\0.9.16\cssparser-0.9.16.jar;F:\selinum\userlib\org\w3c\css\sac\1.3\sac-1.3.jar;F:\selinum\userlib\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;F:\selinum\userlib\org\eclipse\jetty\websocket\websocket-client\9.2.12.v20150709\websocket-client-9.2.12.v20150709.jar;F:\selinum\userlib\org\eclipse\jetty\jetty-util\9.2.12.v20150709\jetty-util-9.2.12.v20150709.jar;F:\selinum\userlib\org\eclipse\jetty\jetty-io\9.2.12.v20150709\jetty-io-9.2.12.v20150709.jar;F:\selinum\userlib\org\eclipse\jetty\websocket\websocket-common\9.2.12.v20150709\websocket-common-9.2.12.v20150709.jar;F:\selinum\userlib\org\eclipse\jetty\websocket\websocket-api\9.2.12.v20150709\websocket-api-9.2.12.v20150709.jar;F:\selinum\userlib\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar;F:\selinum\userlib\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar;F:\selinum\userlib\org\seleniumhq\selenium\selenium-firefox-driver\2.48.2\selenium-firefox-driver-2.48.2.jar;F:\selinum\userlib\org\seleniumhq\selenium\selenium-ie-driver\2.48.2\selenium-ie-driver-2.48.2.jar;F:\selinum\userlib\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;F:\selinum\userlib\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;F:\selinum\userlib\org\seleniumhq\selenium\selenium-safari-driver\2.48.2\selenium-safari-driver-2.48.2.jar;F:\selinum\userlib\org\seleniumhq\selenium\selenium-support\2.48.2\selenium-support-2.48.2.jar;F:\selinum\userlib\org\webbitserver\webbit\0.4.14\webbit-0.4.14.jar;F:\selinum\userlib\io\netty\netty\3.5.2.Final\netty-3.5.2.Final.jar;F:\selinum\userlib\org\seleniumhq\selenium\selenium-leg-rc\2.48.2\selenium-leg-rc-2.48.2.jar;F:\selinum\userlib\org\testng\testng\6.9.10\testng-6.9.10.jar;F:\selinum\userlib\com\beust\jcommander\1.48\jcommander-1.48.jar;F:\selinum\userlib\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;F:\selinum\userlib\log4j\log4j\1.2.16\log4j-1.2.16.jar;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -44,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
-    <property name="sun.java.command" value="C:\Users\35870\AppData\Local\Temp\surefirebooter3207574067382914125.jar C:\Users\35870\AppData\Local\Temp\surefire4733577147638815082tmp C:\Users\35870\AppData\Local\Temp\surefire5355583448453288661tmp"/>
+    <property name="sun.java.command" value="C:\Users\35870\AppData\Local\Temp\surefirebooter2410159735103263910.jar C:\Users\35870\AppData\Local\Temp\surefire7469172454143992109tmp C:\Users\35870\AppData\Local\Temp\surefire1602519828738890120tmp"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="zh"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -62,5 +63,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="testcase.LoginTest" name="login" time="27.256"/>
+  <testcase classname="testcase.LoginTest" name="login" time="29.078"/>
+  <testcase classname="testcase.SearchTest" name="search" time="14.028"/>
+  <testcase classname="testcase.AdminTest" name="delete" time="73.986"/>
 </testsuite>

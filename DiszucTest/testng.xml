@@ -4,6 +4,8 @@
     <test name="test">
         <classes>
             <class name="testcase.LoginTest" />
+            <class name="testcase.SearchTest" />
+            <class name="testcase.AdminTest" />
         </classes>
     </test>
 </suite>
