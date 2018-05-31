@@ -3,7 +3,7 @@
         <parameter name="browser" value="chrome"/>
         <test name="product">
            <classes>
-              <class name="test.test"/>
+              <class name="src/main/java.test.test"/>
            </classes>
         </test>
     </suite>
