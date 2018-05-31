@@ -2,23 +2,23 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="143" started-at="2018-05-31T03:02:40Z" finished-at="2018-05-31T03:02:40Z">
+  <suite name="Default suite" duration-ms="16" started-at="2018-05-31T05:55:33Z" finished-at="2018-05-31T05:55:33Z">
     <groups>
       <group name="fast">
-        <method signature="test.afast()[pri:0, instance:test.test@5b275dab]" name="afast" class="test.test"/>
+        <method signature="test.afast()[pri:0, instance:haotest.test.test@5b275dab]" name="afast" class="haotest.test.test"/>
       </group> <!-- fast -->
     </groups>
-    <test name="Default test" duration-ms="143" started-at="2018-05-31T03:02:40Z" finished-at="2018-05-31T03:02:40Z">
-      <class name="test.test">
-        <test-method status="PASS" signature="setup()[pri:0, instance:test.test@5b275dab]" name="setup" is-config="true" duration-ms="16" started-at="2018-05-31T11:02:40Z" finished-at="2018-05-31T11:02:40Z">
+    <test name="Default test" duration-ms="16" started-at="2018-05-31T05:55:33Z" finished-at="2018-05-31T05:55:33Z">
+      <class name="haotest.test.test">
+        <test-method status="PASS" signature="setup()[pri:0, instance:haotest.test.test@5b275dab]" name="setup" is-config="true" duration-ms="16" started-at="2018-05-31T13:55:33Z" finished-at="2018-05-31T13:55:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="afast()[pri:0, instance:test.test@5b275dab]" name="afast" duration-ms="16" started-at="2018-05-31T11:02:40Z" finished-at="2018-05-31T11:02:40Z">
+        <test-method status="PASS" signature="afast()[pri:0, instance:haotest.test.test@5b275dab]" name="afast" duration-ms="0" started-at="2018-05-31T13:55:33Z" finished-at="2018-05-31T13:55:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afast -->
-      </class> <!-- test.test -->
+      </class> <!-- haotest.test.test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
